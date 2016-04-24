@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset = "UTF-8" >
+  </head>
+  <body>
+    <script>
+      var x = prompt('Number of Line');
+      console.log(x);
+      function star(line)
+      {
+        for(var i = 0; i < line; i++)
+        {
+          var string = "";
+          for(var j = 0; j < i * 2 + 1; j++)
+          {
+            string += "*"
+          }
+          console.log(string);
+        }
+      }
+      star(x);
+    </script>
+  </body>
+</html>
